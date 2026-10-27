@@ -22,3 +22,9 @@ The event stream contains `tool_call` and `tool_result` pairs linked by `call_id
 Rein owns portable failure findings and policy verdicts. Reflect owns the actual tool boundary, permissions, and user approval; it can feed privacy-safe events to Rein and enforce a `deny`. Record can cite finding event IDs in a checkpoint; Recall can store a reviewed lesson linked to the checkpoint. This first release is standalone and is **not wired into Reflect** yet.
 
 Rein was designed after studying agent reliability systems such as Failproof AI. It is independent code and does not copy Failproof's implementation or policy pack. Add more rules only when a real failure trace and an evaluation show they help without excessive false positives.
+
+## License
+
+MIT — see [LICENSE](LICENSE) for details. Contributions are welcome under the terms in [CONTRIBUTING.md](CONTRIBUTING.md); report security issues privately as described in [SECURITY.md](SECURITY.md).
+
+© 2026 GrayCode AI
